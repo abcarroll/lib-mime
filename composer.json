@@ -1,0 +1,19 @@
+{
+    "name": "ab/lib-mime",
+    "description": "An extremely lightweight mostly static mime, content-type and file extension library.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "A.B. Carroll",
+            "email": "ben@hl9.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ab\\Mime\\": "src/"
+        }
+    }
+}
